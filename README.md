@@ -10,11 +10,11 @@ falls du kartof aber für linux nicht mehr benutzen willst, entferne entweder di
 
 dieses skript braucht natürlich so wie der installer auch superuser-berechtigungen
 
-falls du kartof nicht installieren, sondern nur ausprobieren willst (warum sollte man das nicht wollen?), befindet sich die binäre datei im "bin" ordner
-
 __kompilieren__
 
-wenn du dir kartof lieber selber kompilieren willst, findest du eine compile.sh im "source" ordner. diese datei verschiebt die kompilierte version auch direkt in den "bin" ordner, so dass du dann mit dem "install.sh"-skript deine eigene kompilierte datei installierst.
+`gcc -o bin/kartof source/main.c`
+
+viel spaß mit kartof portable(tm)
 
 __lizenz oder so__
 
